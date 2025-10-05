@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: sans-serif;
+            background-image: url("wallpaper.jpg");
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-attachment: fixed;
+            scroll-behavior: smooth;
+            /* transform: scale(0.75);
+            transform-origin: top left;
+            width: 133.33%; */
+        }
+        header div a {
+            color:aqua;
+            transition: 0.3s ease-in-out;
+        }
+        header div a:hover {
+            color:aliceblue;
+            transform: scale(1.2);
+        }
+        .nav {
+            font-family: Readex Pro;
+            text-decoration: none;
+            font-size: 3rem;
+            padding-left: 60px;
+        }
+        section h1 section a {
+            color: aliceblue;
+            background-color: blue;
+            transition: 0.5s ease-in-out;
+        }
+        section h1 section a:hover {
+            color: blue;
+            background-color: aliceblue;
+            transform: scale(1.3);
+        }
+        h1 {
+            font-family: Readex Pro;
+        }
+        section a img{
+            transition: 0.7s ease-in-out;
+        }
+        section a img:hover {
+            filter: invert();
+            transform: scale(1.2);
+        }
+        .geet {
+            font-size: 10rem;
+        }
+        #main {
+            display: flex;
+        }
+        .paragraph {
+            font-size: 1.4rem;
+        }
+        .contuctabout {
+            font-size: 1.5rem;
+            padding: 8px 6px; 
+            display: inline-block;
+        }
+        .background2 {
+            width: 700px;
+        }
+        .floatfix {
+            float: right;
+        }
+        .photoediting {
+            font-size: 5rem;
+        }
+        .myworksview {
+            margin-top: 250px;
+            margin-bottom: 250px;
+
+        }
+        .videview {
+            border-radius: 55px; 
+            overflow: hidden;  
+            width: 230px;
+        }
+        .contucth1 {
+            font-size: 6rem;
+        }
+        .smv1 {
+            margin-right: 100px;
+        }
+        .smv2 {
+            margin-left: 100px;
+        }
+        /* responsive */
+        @media (max-width: 480px) {
+            /* main */
+            .nav {
+                font-size: 15px;
+                padding-left: 5px;
+                padding-right: 5px;
+                text-align: center;
+            }
+            .mf {
+                max-width: 200px;
+            }
+            .geet {
+                font-size: 3rem;
+                text-align: center;
+            }
+            .mf {
+                display: block;
+                margin: auto;
+            }
+            #main {
+                display: block;
+            }
+            .paragraph {
+                font-size: 0.6rem;
+            }
+            .contuctabout {
+                font-size: 0.8rem;
+                padding: 8px 6px; 
+                display: flex;
+                margin-left: 0px;
+                display: block;
+                margin: auto;
+            }
+            .othertext {
+                text-align: center;
+                margin-left: 30px;
+                float: none;
+            }
+            /* about */
+            .background2 {
+                max-width: 250px;
+                display: block;
+                margin: auto;
+                margin-right: 2000px;
+            }
+            body {
+                zoom: 180%;
+            }
+            .photoediting {
+                font-size: 2.2rem;
+            }
+            .imageview {
+                max-width: 130px;
+                margin-bottom: 20px;
+                align-self: center;
+                margin-left: 30px;
+                margin-right: 30px;
+            }
+            .myworksview {
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            .videview {
+                width: 180px;
+                margin-right: 0px;
+                margin-left: 0px;
+                margin-bottom: 30px;
+            }
+            .contucth1 {
+                font-size: 2.2rem;
+            }
+            .smv1 {
+                margin-right: 0px;
+                margin-bottom: 200px;
+            }
+            .smv2 {
+                margin-left: 0px;
+                margin-bottom: 200px;
+            }
+            .smv {
+                margin-bottom: 200px;
+            }
+        }
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* يمنع التمرير الأفقي */
+            }
+
+            * {
+            box-sizing: border-box; /* يخلي المقاسات دقيقة */
+            }
+
+            .container {
+            max-width: 100%;
+            margin: 0 auto;
+            }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <header class="head">
+        <div align="center" style="display: flex; justify-content: center;border-bottom: whitesmoke solid 2px;padding-bottom: 20px;">
+        <a class="nav" align="left" href="#about">نبذة</a>
+        <a class="nav" align="center" href="#myworks">خدماتي</a>
+        <a class="nav" align="right" href="#contuct">تواصل</a>
+        </div>
+    </header>
+    <br>
+    <section id="main">
+        <img src="background.png" class="mf" style="
+        width: 700px;
+        ">
+        <div class="othertext">
+            <h1 class="geet" style="
+            font-family: Readex Pro;
+            color: aqua;
+            font-weight: 700;
+            margin-right: 50px;
+            scale: 1.1;
+            ">
+            الفيش
+            <p class="paragraph" style= "color: aquamarine;">مصمم صور,مونتير,جرافيك ديزاينر</p>
+            <section style="display: flex;">
+                <a class="contuctabout" href="#contuct" style="text-decoration-line: none; border-radius: 25px; width:fit-content ;box-shadow: 10px 5px 16px 4px rgba(0,0,0,0.75); -webkit-box-shadow: 10px 5px 16px 4px rgba(0,0,0,0.75); -moz-box-shadow: 10px 5px 16px 4px rgba(0,0,0,0.75);">تواصل</a>
+                <a class="contuctabout" href="#myworks" style=" margin-left: 20px; text-decoration-line: none; border-radius: 25px; width:fit-content ; box-shadow: 10px 5px 16px 4px rgba(0,0,0,0.75); -webkit-box-shadow: 10px 5px 16px 4px rgba(0,0,0,0.75); -moz-box-shadow: 10px 5px 16px 4px rgba(0,0,0,0.75);">اعمالي</a>
+            </section>
+            </h1>
+        </div>
+    </section>
+    <section  id="about">
+        <div style="background-image: url(background.svg);" >
+            <hr>
+            <img class="background2" src="background2.png">
+            <div style="float: right;" class="othertext">
+                <h1 class="geet" style="
+                font-family: Readex Pro;
+                color: aqua;
+                margin-right: 50px;
+                scale: 1.1;
+                ">
+                نبذة
+                <p class="paragraph" style=" color: whitesmoke;">أنا محمد الفيش، مصمم صور وإيديتور وجرافيك ديزاينر.</p>
+                <p class="paragraph" style=" color: whitesmoke;">أحب الابتكار في عملي وجعل كل تصاميمي مميزة.</p>
+                <p class="paragraph" style=" color: whitesmoke;">أطور مهاراتي دائمًا في برامج التصميم.</p>
+                <p class="paragraph" style=" color: whitesmoke;">أسعى لتقديم أعمال احترافية وذات جودة عالية.</p>
+                </h1>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <section align="center" id="myworks">
+        <h1 class="photoediting" style="
+        color: aqua;
+        ">
+            تصميم صور
+        </h1>
+        <div class="myworksview">
+            <img class="imageview" src="works/photos/1.jpg" style=" margin-left: 30px; border-radius: 30px; border: solid whitesmoke; width: 410px;">
+            <img class="imageview" src="works/photos/2.jpg" style="border-radius: 30px; border: solid whitesmoke; width: 410px;">
+            <img class="imageview" src="works/photos/3.jpg" style=" margin-right: 30px; border-radius: 30px; border: solid whitesmoke; width: 410px;">
+        </div>
+        <h1 class="photoediting" style="
+        color: aqua;
+        ">
+            تصميم فيديوهات
+        </h1>
+        <div class="vvdiv" style=" margin-top: 125; margin-bottom: 250px;">
+            <a href="https://drive.google.com/file/d/14lJq_gLPIXCYA6VxIPzr_3HDquh-z6bz/view?usp=drive_link" target="_blank"><img class="imageview" src="videlo.jpg" style=" margin-left: 30px; border-radius: 30px; border: solid whitesmoke; width: 230px;"></a>
+            <a href="https://drive.google.com/file/d/1vvG7kXJIltmL1xiSypEgV-BPgC1k8W-F/view?usp=drive_link" target="_blank"><img class="imageview" src="videlo.jpg" style=" margin-left: 30px; border-radius: 30px; border: solid whitesmoke; width: 230px;"></a>
+            <a href="https://drive.google.com/file/d/1-1GFK87VMpICMwW6qCqYKdNBlY5mV73f/view?usp=drive_link" target="_blank"><img class="imageview" src="videlo.jpg" style=" margin-left: 30px; border-radius: 30px; border: solid whitesmoke; width: 230px;"></a>
+            <a href="https://drive.google.com/file/d/1-SqpM0Sx9I93e1vFRdkC0aHpNxaJohmY/view?usp=drive_link" target="_blank"><img class="imageview" src="videlo.jpg" style=" margin-left: 30px; border-radius: 30px; border: solid whitesmoke; width: 230px;"></a>
+            <a href="https://drive.google.com/file/d/1Ux1hfAHm4Fr0Z8ZhErAk-23Mo9dIL8Vr/view?usp=drive_link" target="_blank"><img class="imageview" src="videlo.jpg" style=" margin-left: 30px; border-radius: 30px; border: solid whitesmoke; width: 230px;"></a>
+        </div>
+    </section>
+    <section style="background-image: url(background.svg);" id="contuct">
+        <hr>
+        <h1 class="contucth1" align="center" style="color: aqua;" id="contuct">تواصل معي</h1>
+        <div align="center" style="margin-top: 125px; margin-bottom: 125px;">
+            <a class="smv1" href="https://www.facebook.com/share/1MrB8vKPak/" target="_blank" class="sm"><img src="social media/facebook.png" width="90"></a>
+            <a class="smv" href="https://www.instagram.com/84455tru6th4fvt?igsh=MWZwdWJiMHI3eXp1cg==" target="_blank" class="sm"><img src="social media/instagram.png" width="110"></a>
+            <a class="smv2" href="https://www.tiktok.com/@user821330653802?_t=ZS-90DjHJkcAv1&_r=1" target="_blank" class="sm"><img src="social media/tiktok.png" width="90" </a>
+        </div>
+        <hr style="color: white;">
+    </section>
+    <footer>
+        <p>Mustafa Ashour</p>
+    </footer>
+</body>
+</html>
+
+
